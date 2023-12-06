@@ -1,0 +1,15 @@
+git config user.name
+git config user.email
+git init
+git status
+
+git add .
+git commit -m "primeiro commit"
+git commit -m "segundo commit"
+
+git log
+
+git branch nova_branch
+git checkout nova_branch
+git add .
+git commit -m "primeiro commit na nova branch"
