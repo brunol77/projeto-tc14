@@ -1,7 +1,10 @@
-git config user.name
-git config user.email
+criar txt comandos.txt e aula_git.txt
+
 git init
 git status
+
+git config user.name "bruno"
+git config user.email "brunol77@gmail.com"
 
 git add .
 git commit -m "primeiro commit"
@@ -13,3 +16,10 @@ git branch nova_branch
 git checkout nova_branch
 git add .
 git commit -m "primeiro commit na nova branch"
+
+### voltar da branch ou main
+git checkout main
+git checkout nova_branch
+
+### copiar os arquivos da nova_branch para main
+git merge nova_branch
