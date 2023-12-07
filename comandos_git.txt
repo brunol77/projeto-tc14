@@ -30,5 +30,5 @@ git checkout nova_branch
 ### Copiar os arquivos da nova_branch para main
 git merge nova_branch
 
-### 
+### Ver erros de checkout
 git checkout -b main
