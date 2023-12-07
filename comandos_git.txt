@@ -1,25 +1,34 @@
-criar txt comandos.txt e aula_git.txt
+### Criar arquivos
+comandos.txt
+aula_git.txt
 
+### Inciar e ver status
 git init
 git status
 
+### Criar perfil
 git config user.name "bruno"
 git config user.email "brunol77@gmail.com"
 
+### Inserir arquivo no Git e fazer commit
 git add .
 git commit -m "primeiro commit"
 git commit -m "segundo commit"
 
+### Verificar log
 git log
 
+### Criar nova branch (compartilhamento de projetos)
 git branch nova_branch
-git checkout nova_branch
 git add .
 git commit -m "primeiro commit na nova branch"
 
-### voltar da branch ou main
+### Voltar da branch ou main
 git checkout main
 git checkout nova_branch
 
-### copiar os arquivos da nova_branch para main
+### Copiar os arquivos da nova_branch para main
 git merge nova_branch
+
+### 
+git checkout -b main
