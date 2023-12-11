@@ -1,0 +1,9 @@
+git remote add origin https://github.com/brunol77/aula_09.git
+
+git branch -M main
+
+git add .
+
+git commit -m "Comandos_GitHub"
+
+git push -u origin main
