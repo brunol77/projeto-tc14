@@ -7,8 +7,14 @@ git init
 git status
 
 ### Criar perfil
-git config user.name "bruno"
+git config user.name "Bruno"
 git config user.email "brunol77@gmail.com"
+
+git config --global user.name "Bruno"
+git config --global user.email "brunol77@gmail.com"
+
+### Ver configurações da conta
+git config --list
 
 ### Inserir arquivo no Git e fazer commit
 git add .
@@ -27,8 +33,34 @@ git commit -m "primeiro commit na nova branch"
 git checkout main
 git checkout nova_branch
 
-### Copiar os arquivos da nova_branch para main
+### Copiar os arquivos da nova_branch para main ou inverso
 git merge nova_branch
+git merge main
 
-### Ver erros de checkout
+### Ver erros checkout
 git checkout -b main
+
+### Subir arquivos para GitHub, subir para a pasta do projeto ou aula
+git branch -M main
+git remote add origin https://github.com/brunol77/projeto-tc14.git
+git push -u origin main
+
+### Comandos aula GitHub
+git remote add origin https://github.com/brunol77/aula_09.git
+git branch -M main
+git add .
+git commit -m "Comandos_GitHub"
+git push -u origin main
+
+### Clonar repositorio remoto
+git clone https://github.com/dehrs/aula09.git
+
+### Pegar arquivos do Git Clone
+git pull
+
+### Enviar arquivo para o Git Clone
+git push
+git push -u origin main
+
+### Remover diretorio GitHub (Vai apagar o principal)
+git remote remove origin
