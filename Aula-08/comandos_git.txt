@@ -37,6 +37,9 @@ git checkout nova_branch
 git merge nova_branch
 git merge main
 
+### Abortar processo de merge e volta ao estado anterior
+git merge --abort
+
 ### Ver erros checkout
 git checkout -b main
 
@@ -54,6 +57,9 @@ git push -u origin main
 
 ### Clonar repositorio remoto
 git clone https://github.com/dehrs/aula09.git
+
+### Verificar repositorio local com o remoto
+git remote show origin
 
 ### Pegar arquivos do Git Clone
 git pull
