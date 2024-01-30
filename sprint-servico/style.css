@@ -1,36 +1,35 @@
-*{
+* {
     font-family: 'Maven Pro', sans-serif;
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
   
-body{
-    background-color: #c2e4ef;
+body {
+    background-color: #193459;
 }
   
-header{
-    background-color: rgb(173, 155, 210);
+header {
+    color: white;
+    background-color: #BDC7D0;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding: 16px;
 }
   
-ul{
+ul {
     display: flex;
     height: 100%;
     align-items: center;
-}
-
-li{
-    color: white;
 }
   
 nav ul li{
     padding-left: 16px;
     list-style-type: none;
-  }
+    font-weight: bold;
+}
   
-main{
+main {
       color: white;
       padding-top: 10px;
       width: 900px;
@@ -38,11 +37,11 @@ main{
       font-weight: bold;
 }
   
-section{
+section {
     display: flex;
 }
   
-section div{
+section div {
     background-image: url(img/caixa_branca.jpg);
     color: rgb(69, 138, 59);
     width: 400px;
@@ -52,26 +51,26 @@ section div{
     border-radius: 5px;
 }
   
-h1{
+h1 {
     font-size: 3rem;
     margin-left: 0.7rem;  
 }
   
-h2{
+h2 {
     font-size: 1.5rem;
     margin-left: 1rem; 
 }
   
-h3{
+h3 {
     font-size: 1.2rem;
     margin-bottom: 15px;
 }
   
-section div{
+section div {
     transition: transform 1s;
 }
    
-section div:hover{
+section div:hover {
     transform: scale(1.1);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
