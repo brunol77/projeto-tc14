@@ -16,10 +16,6 @@ header {
   /* margin-bottom: 16px; */
 }
 
-nav {
-  /* background-color: #EF7D19; */
-}
-
 ul {
   display: flex;
   height: 100%;
@@ -73,6 +69,6 @@ section div{
 }
  
 section div:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
