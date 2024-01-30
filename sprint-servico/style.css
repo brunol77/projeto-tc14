@@ -1,0 +1,72 @@
+*{
+    font-family: 'Maven Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+  
+body{
+    background-color: #a8d3e1;
+}
+  
+header{
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+  
+ul {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+  
+nav ul li{
+    padding-left: 16px;
+    list-style-type: none;
+  }
+  
+main{
+      color: white;
+      padding-top: 10px;
+      width: 900px;
+      margin: 50px;
+      font-weight: bold;
+}
+  
+section{
+    display: flex;
+}
+  
+section div{
+    background-image: url(img/borda.jpg);
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+}
+  
+h1{
+    font-size: 3rem;
+    margin-left: 0.7rem;  
+}
+  
+h2{
+    font-size: 1.5rem;
+    margin-left: 1rem; 
+}
+  
+h3{
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+  
+section div{
+    transition: transform 1s;
+}
+   
+section div:hover{
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
