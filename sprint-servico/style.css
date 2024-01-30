@@ -5,20 +5,24 @@
 }
   
 body{
-    background-color: #a8d3e1;
+    background-color: #c2e4ef;
 }
   
 header{
-    background-color: rgb(238, 238, 238);
+    background-color: rgb(173, 155, 210);
     display: flex;
     justify-content: space-between;
     padding: 16px;
 }
   
-ul {
+ul{
     display: flex;
     height: 100%;
     align-items: center;
+}
+
+li{
+    color: white;
 }
   
 nav ul li{
@@ -40,7 +44,7 @@ section{
   
 section div{
     background-image: url(img/caixa_branca.jpg);
-    color: rgb(15, 117, 1);
+    color: rgb(69, 138, 59);
     width: 400px;
     height: 400px;
     margin: 10px;
