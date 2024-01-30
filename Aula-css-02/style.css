@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+body {
+  background-color: #593493;
+}
+
 header {
   background-color: lightgray;
   display: flex;
@@ -28,11 +32,12 @@ nav ul li {
 }
 
 main {
-    background-color: aqua;
+    /*background-color: aqua;*/
     color: white;
     padding-top: 10px;
     width: 900px;
     margin: 0 auto;
+    font-weight: bold;
 }
 
 section {
@@ -46,4 +51,28 @@ section div {
   margin: 10px;
   padding: 20px;
   border-radius: 20px;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-left: 1.3rem;  
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-left: 1.3rem; 
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+section div{
+  transition: transform 1s;
+}
+ 
+section div:hover {
+  transform: scale(1.2);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
