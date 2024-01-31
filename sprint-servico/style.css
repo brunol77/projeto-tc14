@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -66,6 +67,7 @@ header {
     display: flex;
     justify-content: center;
     padding: 16px;
+    text-decoration: none;
 }
 */
 
