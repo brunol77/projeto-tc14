@@ -4,9 +4,9 @@ const permissao = true
 const id = 1234
 
 let senhaUsuario = 'minhasenha'
-let emailUsuario = '_jeff@gmail.com'
+let emailUsuario = 'jeff@gmail.com'
 let idUsuario = 1234
-let permissaoUsuario = false
+let permissaoUsuario = true
 
 if(emailUsuario === email && idUsuario === id) {
     console.log('Deseja mudar a senha?')
