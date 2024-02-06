@@ -28,7 +28,8 @@ console.log(nameImput);
 const footerLinks = document.querySelectorAll("footer .lista_redes a");
 footerLinks.forEach(link => console.log(link));
 
+const navLinks = document.querySelectorAll("nav li a");
+navLinks.forEach(link => console.log(link));
 
-
-
-// Bruno - Jane - Nikolas
+const negritoAutorData = document.querySelectorAll(".post-autor strong .post-data strong");
+negritoAutorData.forEach(Element => console.log(Element));
