@@ -86,7 +86,8 @@ main {
     margin: 50px;
     font-weight: bold;
 }
-  
+
+/*
 ul {
     display: flex;
     height: 100%;
@@ -98,7 +99,8 @@ nav ul li{
     list-style-type: none;
     font-weight: bolder;
 }
-  
+*/
+
 section {
     display: flex;
 }
@@ -137,6 +139,7 @@ section div:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
+/*
 footer {
 	background-color: #C5DBE9;
 	color: #860f91;
@@ -144,3 +147,4 @@ footer {
 	text-align: center;
 	margin-top: 50px;
 }
+*/
