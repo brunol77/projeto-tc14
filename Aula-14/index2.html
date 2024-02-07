@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <title>Formulário Aula</title>
+    <title>Formulário Inscrição</title>
     
 </head>
 <body>
     <div class="login-container">
         <form action="  ">
-            <h1> Formulário de Inscritos </h1>
+            <h1> Formulário de Inscrição - Colonia de férias</h1>
             <br>
             <div> 
                 <i class="fas fa-user"></i>
@@ -19,17 +19,20 @@
                 <!-- input type ="text" id ="username" name="username" placeholder="Digite aqui seu nome "  -->
                 <input type ="text" id ="username" name="username">
             </div>
+            <br>
             <div>
                 <i class="fas fa-inbox"></i>
                 <label for ="email">Email</label>
                 <!-- input type="email" id="email" name="email" placeholder="seu-email@gmail.com" -->
                 <input type="email" id="email" name="email">
             </div>
+            <br>
             <div>
                 <i class="fas fa-lock"></i>
                 <label for="password">Senha</label>
                 <!-- input type="password" id="password" name="password" placeholder="******" -->
                 <input type="password" id="password" name="password">
+            <br>
             <br>
             <div>
             <i class="fas fa-phone"></i>
@@ -37,6 +40,31 @@
             <!-- input type="tel" id="telefone" name="telefone" placeholder="(00)0000-0000" -->
             <input type="tel" id="telefone" name="telefone">
             </div>
+            <br>
+            <br>
+            <section>
+                <p>Nacionalidade</p>
+                <br>
+                <input type="radio" name="Nacionalidade" id="Brasil">
+                <label for="Brasil" > Brasileiro(a) </label>
+                <input type="radio" name="Nacionalidade" id="Outro">
+                <label for="Outro" > Estrangeiro(a) </label>
+            </section>
+            <br>
+            <br>
+            <section>
+                <p>Quais Praias deseja Conhecer</p>
+                <br>
+                <input type="checkbox" name="Destino das praias que deseja conhecer" id="norte">
+                <label for="norte">Praias do Nordeste</label>
+                <input type="checkbox" name="Destino das praias que deseja conhecer" id="sul">
+                <label for="sul">Praias do Sul</label>
+                <input type="checkbox" name="Destino das praias que deseja conhecer" id="rio">
+                <label for="rio">Praias do Rio de Janeiro</label>
+                <input type="checkbox" name="Destino das praias que deseja conhecer" id="sp">
+                <label for="sp">Praias de São Paulo</label>
+            </section>
+            <button type="submit">Enviar</button>
         </form>    
     </div>
     
