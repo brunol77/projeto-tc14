@@ -35,6 +35,7 @@ const main = document.querySelector('main')
 main.appendChild(article)
 }
 
+// 
 
 /// Comentando o código para usar o FOR
 
@@ -57,8 +58,6 @@ main.appendChild(article)
 /// Adicionando no DOM
 //const main = document.querySelector('main')
 //main.appendChild(article)
-
-
 
 
 

@@ -62,5 +62,3 @@ main.appendChild(article)
 
 
 
-
-

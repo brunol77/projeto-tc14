@@ -1,0 +1,21 @@
+live server
+code runner
+html snipperts
+css peek
+visual studio intellicode
+beautify
+gitlens
+vscode-icons
+night owl
+auto rename tag
+html css support
+java script booster
+better comments
+
+
+vscode essentials - jabacchetta
+
+
+
+
+
