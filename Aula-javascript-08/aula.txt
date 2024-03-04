@@ -1,0 +1,6 @@
+
+Adicionar botão +1 e -1 na cesta de itens
+
+Somar os valores da cesta + preço
+
+Fixar casa decimais

@@ -1,0 +1,129 @@
+Variaveis: var, let, const
+Ex.: var letra = a
+
+Operadores
+
+conjunção = &&
+disjunção = ||
+negação = !
+
+Estrutura condicional
+
+if e else
+
+Ex.: com if e else
+if (num > 5){
+  console.log("é maior que 5")
+} else {
+  console.log("é menor que 5")
+}
+
+Ex.: com else if:
+
+if (num > 5){
+  console.log("é maior que 5")
+} else if (num < 5){
+  console.log("é menor que 5")
+} else{
+  console.log("é o número 5")
+
+if(aprovado==true) = if(aprovado)
+if(aprovado==false) = if(!aprovado)
+
+
+A estrutura base de um for loop consiste em:
+-uma palavra reservada for;
+-parâmetros do loop entre parênteses ( );
+-um código, que será executado, entre chaves { }
+
+Ex.: 
+for( let i=0; i<5; i++){
+  console.log(i);
+}
+
+Arrays
+
+Podemos percorrer arrays usando o for loop e a propriedade .length(), que retorna o tamanho de um array para compor a condição de parada
+
+let queijos = ['mussarela','prato','brie']
+for(let i=0; i<queijos.lenght; i++){
+  console.log(letras[i];
+}
+
+
+Funções
+
+Na linguagem JavaScript, temos três formas de declarar variáveis: declaração regular, declaração anônima e arrow functions.
+Para declarar funções na forma regular, precisamos de quatro elementos: a palavra reservada function, o nome da função, os parâmetros que a função pode receber entre parênteses e o bloco de código a ser executado entre chaves
+
+function subtrair(a,b){
+return a-b
+}
+
+const subtrair = function(a,b){
+return a-b
+}
+
+
+JavaScript
+
+Nesse caso, não escrevemos no espaço entre as tags de abertura e de fechamento. No entanto, adicionamos dois atributos à tag de abertura: src para definir a rota até o arquivo.js e defer para indicar ao navegador que deve executar nosso código JavaScript apenas depois que todos os elementos HTML foram renderizados
+
+<script src="./script.js" defer></script>
+
+
+DOM
+
+Aprendemos o que é o Document Object Model (DOM) e como podemos acessar nossos elementos HTML usando-o em conjunto com a linguagem JavaScript
+O DOM nos fornece o objeto “Document” para acessar os elementos HTML do nosso site, usando diferentes métodos, que são as funções salvas como valores de um objeto e acessadas via dot notation
+O método .getElementById() recebe uma string como parâmetro, que deve ser igual ao valor do id do elemento que queremos acessar. O retorno dessa ação é, geralmente, guardado em uma variável
+
+let titulo = document.getElementById("titulo");
+
+O método .getElementsByClassName() recebe, como parâmetro, uma string que deve ser igual ao nome da classe dos elementos que queremos acessar
+Assim, é retornado um HTMLCollection, que é que tem uma estrutura semelhante à de um array. Geralmente, esse retorno é guardado em uma variável
+
+let postagens = document.getElementByClassName("postagens");
+
+Para acessar um único elemento, o método recomendado é o .querySelector(). Ele recebe uma string como parâmetro com o seletor, ou com uma mistura de seletores. O código deve ser escrito da mesma forma que faríamos em um arquivo CSS, ou seja, com os seletores de classe começando com ponto “.”, os seletores de id começando com símbolo de cerquilha “#”, que é como “jogo da velha”, etc
+
+let tituloPostagens = document.q
+uerySelector(".lista-postagens h2");
+
+Para acessar vários elementos de uma só vez com seletores CSS, o método recomendado é o .querySelectorAll(). Ele recebe uma string como parâmetro com o seletor, ou uma mistura de seletores, e é escrito da mesma forma que o escreveríamos em um arquivo CSS
+
+let listaPostagens = document.querySelectorAll("#postagens > .div");
+
+
+innerText e innerHTML
+
+Usamos as propriedades .innerText e .innerHTML para acessar os conteúdos de texto e em HTML dos nossos elementos capturados via DOM
+
+A propriedade .innerText retorna todo o texto contido entre as tags de abertura e de fechamento do elemento capturado via DOM. Assim:
+
+let titulo = document.getElementById("titulo-pagina")
+  console.log(titulo.innerText)
+
+Caso o elemento acessado possua elementos filhos, a propriedade retornará o texto de ambos, que estarão separados por uma quebra de linha
+
+
+innerHTML
+
+Já a propriedade .innerHTML retorna todo o conteúdo HTML contido entre as tags de abertura e de fechamento do elemento capturado via DOM, incluindo os elementos filhos, seus textos e seus atributos, mas sem a quebra de linha
+
+let linksDeNavegacao = document.querySelectorAll("nav ul")
+  console.log(linksDeNavegacao.innerHTML);
+
+
+Manipulando o DOM
+
+Além de acessar os conteúdos textuais e os de HTML usando as propriedades .innerText e .innerHTML, podemos atribuir novos valores a eles. Para isso, usamos o operador de atribuição “=” e uma string com o novo valor
+
+titulo.innerText = "Titulo inserido com JavaScript"
+
+
+
+
+
+
+

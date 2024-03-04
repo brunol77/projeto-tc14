@@ -1,0 +1,16 @@
+movimentos pelo teclado
+
+addEventListener
+
+keyup = libera comando do teclado
+
+Digit1 = 1
+Escape = ESC
+Pressiona o número 1 e libera a página e o ESC bloqueia novamente
+
+Digit1 libera pra entrar na página
+ESC volta
+
+Dois modelos 
+script.js = 1+1 pra entrar na pagina e ESC volta
+perfil-dados.js = ESC volta pra página inicial

@@ -1,0 +1,5 @@
+valicação usuario
+ex. campo obrigatorio
+
+validar email 
+ex. campo obrigatorio com @ e .com
