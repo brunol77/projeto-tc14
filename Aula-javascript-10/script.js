@@ -70,3 +70,22 @@ function mostrarPopup(input, label){
 
 mostrarPopup(usernameInput,usernameLabel)
 mostrarPopup(emailInput,emailLabel)
+
+
+// ---------- VALIDAÇÃO CONFIRMA SENHA ---------- //
+let confirmaSenhaInput = document.getElementById("confirma-senha");
+let confirmaSenhaLabel = document.querySelector('label [for="confirma-senha"]');
+let confirmaSenhaHelper = document.getElementById("confirma-senha-helper");
+
+togglePopup(confirmaSenhaInput, confirmaSenhaLabel)
+
+confirmaSenhaInput.addEventListener("blur", (e) => {
+    let valor = e.target.value
+
+    if(valor == confirmaSenhaInput.value){
+        estabilizarInputCorreto(confirmaSenhaInput, confirmaSenhaHelper)
+    } else {
+        confirmaSenhaHelper.innerText = "As senhas precisam ser iguais"
+        estabilizarInputIncorreto(confirmaSenhaInput, confirmaSenhaHelper)
+    }
+})
